@@ -30,7 +30,7 @@ git config --global user.email 'YourEmail'
 3. 添加到github
 github -> Settings -> SSH and GPG keys，添加ssh
 4. 测试是否添加成功
-ssh -T git@github.com
+`ssh -T git@github.com`
 
 # 部署项目
 ## 修改配置信息
@@ -66,7 +66,11 @@ hexo deploy
 在浏览器输入`https://yourgithubname.github.io`，就可以看到个人博客了
 # 修改及配置主题
 修改`_config.yml`文件中的配置项
-`theme: next`，推荐使用next主题，主题配置详见 [hexo搭建个人博客——next主题美化](https://shuangmianxiaoq.github.io/2018/03/17/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E2%80%94%E2%80%94next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/)
+```
+// 推荐使用next主题
+theme: next
+```
+主题配置详见 [hexo搭建个人博客——next主题美化](https://shuangmianxiaoq.github.io/2018/03/17/hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E2%80%94%E2%80%94next%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/)
 # 写文章
 - 新建文章：`hexo new "文章名"`
 - 编辑文章：在`source/ _posts`目录下，采用Markdown语法编写文章
