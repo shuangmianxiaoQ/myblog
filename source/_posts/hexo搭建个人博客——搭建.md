@@ -39,7 +39,7 @@ github -> Settings -> SSH and GPG keys，添加ssh
 // hexo 3.0以上，type必须指定为git
 deploy:
   type: git
-  repo: https://github.com/YourGithubName/YourGithubName.github.io.git
+  repo: git@github.com:shuangmianxiaoQ/shuangmianxiaoQ.github.io.git
   branch: master
 ```
 ## 执行hexo命令
