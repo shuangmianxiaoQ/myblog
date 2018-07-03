@@ -56,7 +56,7 @@ git clone https://github.com/shuangmianxiaoQ/myblog.git
 ```
 # 安装依赖
 ```
-cnpm i
+npm i
 ```
 # 测试并部署
 ```

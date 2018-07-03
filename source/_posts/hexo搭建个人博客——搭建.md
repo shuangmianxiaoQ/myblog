@@ -9,7 +9,7 @@ tags:
 # 安装hexo
 ```
 // 全局安装hexo
-cnpm i -g hexo
+npm i -g hexo
 // 初始化项目
 hexo init
 ```
@@ -44,7 +44,7 @@ deploy:
 ```
 ## 执行hexo命令
 ```
-// 注：hexo 3.0之后把服务器独立成个别模块，需要单独安装：`cnpm i hexo-server`
+// 注：hexo 3.0之后把服务器独立成个别模块，需要单独安装：`npm i hexo-server`
 hexo clean
 hexo generate
 hexo server
@@ -53,7 +53,7 @@ hexo server
 打开浏览器，输入`http://localhost:4000`，即可看到本地博客了
 # 部署到github
 ## 安装依赖
-`cnpm i hexo-deployer-git --save`，安装此依赖，才能将文章部署到github服务器上
+`npm i hexo-deployer-git --save`，安装此依赖，才能将文章部署到github服务器上
 ## 执行hexo命令
 ```
 // 建议每次都按照该步骤部署
