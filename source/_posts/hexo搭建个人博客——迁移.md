@@ -19,7 +19,7 @@ tags: 学习
 
 上传如下图所示的文件到 `Github`：
 
-![git上传代码目录](/images/hexo迁移/git上传目录.png)
+![git上传代码目录](/images/hexo迁移/代码提交目录.png)
 
 - 使用 `.gitignore` 文件忽略部分文件的提交
 
