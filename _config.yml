@@ -5,14 +5,14 @@
 # Site
 title: 月亮忘記了
 subtitle:
-description: 关山难越，谁悲失路之人？萍水相逢，尽是他乡之客。
+description: 我们首先应该善良，其次是诚实，再其次是以后永远不要相互遗忘。
 author: 双面小Q
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://shuangmianxiaoq.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -42,7 +42,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,7 +51,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -80,10 +80,3 @@ deploy:
   type: git
   repo: git@github.com:shuangmianxiaoQ/shuangmianxiaoQ.github.io.git
   branch: master
-
-# Search
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
