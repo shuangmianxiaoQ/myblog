@@ -1,7 +1,7 @@
 # Version of the Icarus theme that is currently used
 version: 2.3.0
 # Path or URL to the website's icon
-favicon: /images/favicon.svg
+favicon: /images/favicon.ico
 # Path or URL to RSS atom.xml
 rss: 
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
@@ -27,10 +27,11 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
+        相册: /photos
         关于: /about
     # Navigation bar links to be shown on the right
     links:
-        Download on GitHub:
+        shuangmianxiaoQ:
             icon: fab fa-github
             url: 'https://github.com/shuangmianxiaoQ'
 # Footer section link settings
@@ -50,7 +51,7 @@ footer:
 article:
     # Code highlight theme
     # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-    highlight: atom-one-light
+    highlight: atom-one-dark
     # Whether to show article thumbnail images
     thumbnail: true
     # Whether to show estimate article reading time
@@ -64,7 +65,8 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: 
+    type: livere
+    uid: MTAyMC8zNDgzOS8xMTM3Ng==
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
@@ -72,12 +74,12 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: ''
+        qrcode: '/images/alipay.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: ''
+        qrcode: '/images/wechat.jpg'
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
@@ -111,11 +113,11 @@ widgets:
         # Author's current location to be shown in the profile widget
         location: Shanghai, China
         # Path or URL to the avatar to be shown in the profile widget
-        avatar: 
+        avatar: '/images/avatar.png'
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: 
         # Whether to show avatar image rounded or square
-        avatar_rounded: false
+        avatar_rounded: true
         # Path or URL for the follow button
         follow_link: 'https://github.com/shuangmianxiaoQ'
         # Links to be shown on the bottom of the profile widget
@@ -150,8 +152,7 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+            # Hexo: 'https://hexo.io'
     -
         # Widget name
         type: category
@@ -222,4 +223,4 @@ providers:
     # Name or URL of the webfont CDN provider
     fontcdn: google
     # Name or URL of the webfont Icon CDN provider
-    iconcdn: iconfont
+    iconcdn: fontawesome

@@ -16,6 +16,6 @@ module.exports = {
     iconcdn: {
         [type]: 'string',
         [doc]: 'Name or URL of the webfont Icon CDN provider',
-        [defaultValue]: 'iconfont'
+        [defaultValue]: 'fontawesome'
     }
 };
