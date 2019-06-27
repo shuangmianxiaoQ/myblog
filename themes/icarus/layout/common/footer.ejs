@@ -2,13 +2,6 @@
     <div class="container">
         <div class="level">
             <div class="level-start has-text-centered-mobile">
-                <a class="footer-logo is-block has-mb-6" href="<%- url_for('/') %>">
-                <% if (has_config('logo.text') && get_config('logo.text')) { %>
-                    <%= get_config('logo.text') %>
-                <% } else { %>
-                    <img src="<%- url_for(get_config('logo')) %>" alt="<%= get_config('title') %>" height="28">
-                <% } %>
-                </a>
                 <p class="is-size-7">
                 &copy; <%= date(new Date(), 'YYYY') %> <%= get_config('author') || get_config('title') %>&nbsp;
                 Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a

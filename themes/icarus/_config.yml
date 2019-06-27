@@ -3,7 +3,7 @@ version: 2.3.0
 # Path or URL to the website's icon
 favicon: /images/favicon.ico
 # Path or URL to RSS atom.xml
-rss: 
+rss:
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
 logo: /images/logo.svg
 # Open Graph metadata
@@ -84,7 +84,7 @@ donate:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
     # Share plugin name
-    type: 
+    type: sharejs
 # Sidebar settings.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -214,7 +214,7 @@ plugins:
     clipboard: true
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
 # CDN provider settings
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
