@@ -20,6 +20,8 @@ hexo server
 
 ## 搭桥到 Github
 
+<!-- more -->
+
 ### 创建仓库
 
 创建一个名为`yourname.github.io`的仓库（必须为该格式的仓库名）

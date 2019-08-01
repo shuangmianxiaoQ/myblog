@@ -14,6 +14,8 @@ tags: 学习
 
 下载地址：[hexo-theme-next](https://github.com/iissnan/hexo-theme-next)，直接下载主题后，解压到 themes 目录下
 
+<!-- more -->
+
 ### 启用 Next 主题
 
 打开 `hexo` 项目主目录下的 `_congig.yml`，修改主题配置
